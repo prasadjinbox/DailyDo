@@ -3,6 +3,7 @@ from os import remove
 import streamlit as st
 import functions as fc
 
+
 # ---------- Session state ----------
 if "show_dialog" not in st.session_state:
     st.session_state["show_dialog"] = False
